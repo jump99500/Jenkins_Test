@@ -12,4 +12,4 @@ EOF
 sudo yum install -y firewalld
 sudo systemctl start firewalld
 sudo systemctl enable firewalld
-sudo firewall-cmd-add-port=80/tcp --permanent
+sudo firewall-cmd --permanent --add-port=80/tcp
